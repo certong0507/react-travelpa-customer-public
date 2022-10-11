@@ -1,0 +1,182 @@
+{
+    "chubb": {
+        "accident": {
+            "adult": "RM 325,000.00",
+            "child": "RM 81,250.00"
+        },
+        "medical": {
+            "due_to_accident": "Yes",
+            "medical": "Yes",
+            "accident_up_69": "RM 2,000,000.00",
+            "accident_above_69": "RM 500,000.00",
+            "sickness_up_69": "RM 1,000,000.00",
+            "sickness_above_69": "RM 150,000.00"
+        },
+        "travel": {
+            "cancel_expenses": "Actual Cost",
+            "travel_curtailment": "Actual Cost"
+        },
+        "covid": {
+            "covid": "Yes",
+            "medical": "RM 450,000.00",
+            "travel": "RM 50,000.00",
+            "out_of_country": "N/A",
+            "daily": "RM 350.00 per day up to 60 days ",
+            "quarentine": "N/A",
+            "emeergency": "Unlimited",
+            "repatriation": "Unlimited"
+        },
+        "full": "Covered",
+        "cashless": "Yes"
+    },
+    "aig": {
+        "accident": {
+            "adult": "RM 500,000.00",
+            "child": "RM 125,000.00"
+        },
+        "medical": {
+            "due_to_accident": "Yes",
+            "medical": "RM 10,000,000.00",
+            "accident_up_69": "Yes",
+            "accident_above_69": "Yes",
+            "sickness_up_69": "Yes",
+            "sickness_above_69": "Yes"
+        },
+        "travel": {
+            "cancel_expenses": "RM 30,000.00",
+            "travel_curtailment": "RM 30,000.00"
+        },
+        "covid": {
+            "covid": "Yes",
+            "medical": "RM 800,000.00",
+            "travel": "RM 30,000.00",
+            "out_of_country": "RM 500.00 / day up to RM 7,000.00",
+            "daily": "N/A",
+            "quarentine": "N/A",
+            "emeergency": "Unlimited",
+            "repatriation": "Unlimited"
+        },
+        "full": "Not covered ",
+        "cashless": "Yes"
+    },
+    "tune": {
+        "accident": {
+            "adult": "RM 300,000.00",
+            "child": "RM 50,000.00"
+        },
+        "medical": {
+            "due_to_accident": "Yes",
+            "medical": "RM 300,000.00",
+            "accident_up_69": "Yes",
+            "accident_above_69": "Yes",
+            "sickness_up_69": "Yes",
+            "sickness_above_69": "Yes"
+        },
+        "travel": {
+            "cancel_expenses": "RM 15,000.00",
+            "travel_curtailment": "RM 18,000.00"
+        },
+        "covid": {
+            "covid": "(due to Stage 3 to Stage 5 treatment)",
+            "medical": "RM 300,000.00",
+            "travel": "RM 5,000.00",
+            "out_of_country": "N/A",
+            "daily": "RM 150.00 per full day up to RM 4,000.00",
+            "quarentine": "RM 100.00 per full day up to RM 1,400.00",
+            "emeergency": "RM 300,000.00",
+            "repatriation": "RM 300,000.00"
+        },
+        "full": "Not covered",
+        "cashless": "No"
+    },
+    "rhb": {
+        "accident": {
+            "adult": "RM 300,000.00",
+            "child": "RM 75,000.00"
+        },
+        "medical": {
+            "due_to_accident": "Yes",
+            "medical": "RM 500,000.00",
+            "accident_up_69": "Yes",
+            "accident_above_69": "Yes",
+            "sickness_up_69": "Yes",
+            "sickness_above_69": "Yes"
+        },
+        "travel": {
+            "cancel_expenses": "RM 30,000.00",
+            "travel_curtailment": "RM 30,000.00"
+        },
+        "covid": {
+            "covid": "Yes",
+            "medical": "RM 500,000.00",
+            "travel": "RM 30,000.00  ( admitted hospital )",
+            "out_of_country": "N/A",
+            "daily": "RM 250.00 per day up to 30 days",
+            "quarentine": "Yes",
+            "emeergency": "RM 3,000,000.00",
+            "repatriation": "RM 3,000,000.00"
+        },
+        "full": "Covered",
+        "cashless": "No"
+    },
+    "allianz": {
+        "accident": {
+            "adult": "RM 500,000.00",
+            "child": "RM 250,000.00"
+        },
+        "medical": {
+            "due_to_accident": "RM 175,000.00 ( Child )",
+            "medical": "RM 350,000.00",
+            "accident_up_69": "Yes",
+            "accident_above_69": "Yes",
+            "sickness_up_69": "Yes",
+            "sickness_above_69": "Yes"
+        },
+        "travel": {
+            "cancel_expenses": "RM 25,000.00",
+            "travel_curtailment": "RM 25,000.00"
+        },
+        "covid": {
+            "covid": "Yes",
+            "medical": "RM 350,000.00",
+            "travel": "RM 25,000.00",
+            "out_of_country": "N/A",
+            "daily": "RM 350.00 per day up to RM 15,000.00",
+            "quarentine": "N/A",
+            "emeergency": "RM 10,000,000.00",
+            "repatriation": "RM 10,000,000.00"
+        },
+        "full": "Covered",
+        "cashless": "No"
+    },
+    "axa": {
+        "accident": {
+            "adult": "RM 450,000.00",
+            "child": "RM 450,000.00"
+        },
+        "medical": {
+            "due_to_accident": "Yes",
+            "medical": "RM 450,000.00",
+            "accident_up_69": "Yes",
+            "accident_above_69": "Yes",
+            "sickness_up_69": "Yes",
+            "sickness_above_69": "Yes"
+        },
+        "travel": {
+            "cancel_expenses": "RM 20,000.00",
+            "travel_curtailment": "RM 20,000.00"
+        },
+        "covid": {
+            "covid": "Yes",
+            "medical": "RM 450,000.00",
+            "travel": "RM 20,000.00",
+            "out_of_country": "N/A",
+            "daily": "RM 350.00 per day up to RM 10,500.00",
+            "quarentine": "N/A",
+            "emeergency": "Unlimited",
+            "repatriation": "Unlimited"
+        },
+        "full": "Covered",
+        "cashless": "No"
+    }
+}

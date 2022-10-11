@@ -1,0 +1,526 @@
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+@media only screen and (min-width: 1200px) {
+    .summary-card-title {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.334;
+    }
+
+    #insurance-step-1-wrapper {
+        margin-top: 5%;
+
+        .card {
+            border: none;
+            width: 80%;
+        }
+
+        #insurance-step-1-sale {
+            text-align: left;
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #insurance-step-1-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #insurance-step-2-wrapper {
+        #insurance-step-2-title {
+            color: #2a4a4b;
+            padding-bottom: 15px;
+            padding-top: 10px;
+        }
+    }
+
+    #insurance-step-3-wrapper {
+        #insurance-step-3-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #desktop-insurance-horizontal-stepper {
+        display: block;
+
+        .container-wrapper {
+            width: 50% !important;
+        }
+    }
+
+    #desktop-menu {
+        display: flex;
+
+        ul {
+            li {
+                min-width: 90px;
+
+                a {
+                    width: 110%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #mobile-insurance-vertical-stepper {
+        display: none;
+    }
+
+    #mobile-menu-hamburger {
+        display: none;
+    }
+}
+
+// @media only screen and (min-width: 992px) {
+// }
+
+@media only screen and (min-width: 768px) {
+    .summary-card-title {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.334;
+    }
+
+    #insurance-step-1-wrapper {
+        margin-top: 5%;
+
+        .card {
+            border: none;
+            width: 80%;
+        }
+
+        #insurance-step-1-sale {
+            text-align: left;
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #insurance-step-1-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #insurance-step-2-wrapper {
+        #insurance-step-2-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #insurance-step-3-wrapper {
+        #insurance-step-3-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #insurance-step-4-wrapper {
+        #insurance-step-4-title {
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    #desktop-insurance-horizontal-stepper {
+        display: block;
+
+        .container-wrapper {
+            width: 75%;
+        }
+    }
+
+    #desktop-menu {
+        display: flex;
+    }
+
+    #mobile-insurance-vertical-stepper {
+        display: none;
+    }
+
+    #mobile-menu-hamburger {
+        display: none;
+    }
+}
+
+// @media only screen and (min-width: 600px) {
+// }
+
+@media only screen and (max-width: 600px) {
+    #insurance-step-1-wrapper {
+        .card {
+            border: none;
+            width: 100%;
+
+            .card-body {
+                padding: 0;
+
+                .MuiGrid-container {
+                    width: 100%;
+
+                    .MuiGrid-item {
+                        display: flex;
+                        justify-content: center;
+                        padding: 3%;
+                    }
+                }
+            }
+        }
+    }
+
+    #insurance-step-2-wrapper {
+        #insurance-step-2-title {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+    }
+
+    #desktop-insurance-horizontal-stepper {
+        display: none;
+    }
+
+    #desktop-menu {
+        display: none;
+    }
+
+    #mobile-insurance-vertical-stepper {
+        display: block;
+        padding: 2%;
+        max-width: 100%;
+    }
+
+    #mobile-menu-hamburger {
+        display: flex;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif !important;
+}
+
+#footer {
+    margin-top: auto;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.MuiStepConnector-line {
+    display: none !important;
+}
+
+.input-select {
+    &.Mui-error {
+        .MuiSelect-select {
+            border-color: #d32f2f !important;
+        }
+    }
+}
+
+.input-label {
+    transform: translate(14px, 9px) scale(1) !important;
+
+    &.Mui-focused {
+        transform: translate(14px, -9px) scale(0.75) !important;
+    }
+
+    &.MuiFormLabel-filled {
+        transform: translate(14px, -9px) scale(0.75) !important;
+    }
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.MuiGrid-root > .MuiGrid-item.MuiGrid-item {
+    padding-top: 15px;
+}
+
+// Copyright Style One
+.copyright-style-one {
+    background: #0f0f11;
+    padding: 20px 0;
+    border-top: 1px solid var(--color-border);
+    .copyright-text {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #acacac;
+    }
+    .ft-menu {
+        padding: 0;
+        margin: 0 -10px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        // @media #{$sm-layout} {
+        //     justify-content: center;
+        // }
+        li {
+            margin: 0;
+            padding: 0 10px;
+            position: relative;
+            & + li {
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 14px;
+                    width: 1px;
+                    background: var(--color-border);
+                    left: -1px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+            a {
+                font-size: 14px;
+                text-decoration: none;
+                color: #acacac;
+            }
+        }
+    }
+
+    &.variation-two {
+        background: var(--color-blackest);
+    }
+
+    &.no-border {
+        border-top: 0;
+    }
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-55 {
+    width: 55% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.h-100vh {
+    height: 100vh !important;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+// Hide arrow from number input
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.MuiDrawer-paper {
+    width: 75%;
+}
+
+.MuiTableCell-head {
+    font-weight: bold !important;
+}
+
+.font-normal {
+    font-weight: normal !important;
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+.expand-dropdown {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#menu-products-list {
+    li {
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: rgb(237, 247, 237);
+        }
+    }
+}
+
+#insurance-step-1-sale-content {
+    display: inline-block;
+    background: rgb(237, 247, 237);
+    color: rgb(42, 74, 75);
+    padding: 0.5%;
+    border-radius: 4px;
+    font-size: smaller;
+    border: 2px solid rgb(42, 74, 75);
+}
+
+.social-button {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    font-size: 0.875rem;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-white-background {
+    background-image: url(../assets/images/social-icon.png);
+    width: 22px;
+    height: 22px;
+}
+
+.social-white-facebook-icon {
+    background-size: 325% 287.5%;
+    background-position: 5.555555555555555% 62.666666666666664%;
+}
+
+.social-white-google-icon {
+    background-size: 722.2222222222222% 638.8888888888889%;
+    background-position: 83.92857142857143% 5.154639175257732%;
+}
+
+button {
+    text-transform: capitalize !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// Facebook loginbutton
+.kep-login-facebook {
+    font-size: 0.8125rem !important;
+    font-weight: 500 !important;
+    line-height: 1.75 !important;
+    min-width: 64px !important;
+    padding: 3px 9px !important;
+    border-radius: 4px !important;
+    height: 100%;
+    width: 100%;
+}
+
+#app-sidebar {
+    li {
+        a {
+            color: #262626;
+            font-size: 14px;
+        }
+    }
+}
+
+#about-us-management-team {
+    .management-description {
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #0f9c99;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+}
+
+#term-and-condition {
+    .body1 {
+        font-size: 0.9rem;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #009c99 !important;
+}
+
+.swiper_white_button_next,
+.swiper_white_button_prev {
+    color: #ffffff !important;
+}
+
+.swiper-pagination-horizontal {
+    // background-color: rgb(237, 247, 237) !important;
+    // bottom: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #009c99 !important;
+}

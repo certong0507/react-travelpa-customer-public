@@ -1,0 +1,312 @@
+{
+    "allianz": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 24
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 70
+                        }
+                    }
+                }
+            },
+            "annual": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 70
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 24
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 70
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rhb": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "insured & spouse": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 23
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 19,
+                            "maxYear": 80
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "chubb": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 23
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                }
+            },
+            "annual": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 23
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "aig": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 85
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 24
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 85
+                        }
+                    }
+                }
+            },
+            "annual": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 70
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 24
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 85
+                        }
+                    }
+                }
+            }
+        },
+        "AIG Primary" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 70
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 24
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 70
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tune": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 21
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 65
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "axa": {
+        "other" : {
+            "single&round": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 23
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                }
+            },
+            "annual": {
+                "individual": {
+                    "age": {
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                },
+                "family" : {
+                    "age": {
+                        "child": {
+                            "minDay": 30,
+                            "minYear": null,
+                            "maxYear": 23
+                        },
+                        "adult": {
+                            "minDay": null,
+                            "minYear": 18,
+                            "maxYear": 80
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
